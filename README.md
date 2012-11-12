@@ -1,4 +1,4 @@
-# breeze-dag
+# breeze-dag [![Build Status](https://secure.travis-ci.org/qualiancy/breeze-dag.png?branch=master)](https://travis-ci.org/qualiancy/breeze-dag)
 
 > Async flow control for directed-acyclic-graph iteration.
 
