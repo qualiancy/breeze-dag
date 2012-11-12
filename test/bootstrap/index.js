@@ -9,7 +9,7 @@ global.should = global.chai.should();
  * Chai Plugins
  */
 
-//global.chai.use(require('chai-spies'));
+global.chai.use(require('chai-spies'));
 //global.chai.use(require('chai-http'));
 
 /*!
