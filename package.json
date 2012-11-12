@@ -1,6 +1,6 @@
 {
     "name": "breeze-dag"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Async flow control for directed-acyclic-graph iteration."
   , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
   , "license": "MIT"

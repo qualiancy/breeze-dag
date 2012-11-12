@@ -1,7 +1,7 @@
 {
     "name": "breeze-dag"
   , "repo": "qualiancy/breeze-dag"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Async flow control for directed-acyclic-graph iteration."
   , "license": "MIT"
   , "keywords": [
