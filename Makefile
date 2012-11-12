@@ -1,10 +1,10 @@
 TESTS = test/*.js
 REPORTER = spec
 
-build: components
+build: components lib/*
 	@./node_modules/.bin/component-build --dev
 
-components:
+components: 
 	@./node_modules/.bin/component-install --dev
 
 test: build
@@ -30,4 +30,4 @@ clean:
 	@rm -rf build
 	@rm -rf components
 
-.PHONY: test lib-cov test-cov clean
+.PHONY: build test lib-cov test-cov clean
