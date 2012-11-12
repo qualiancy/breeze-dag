@@ -18,9 +18,12 @@
       "test": "make test"
     }
   , "dependencies": {
+        "breeze-queue": "0.1.x"
+      , "gaia-tsort": "*"
     }
   , "devDependencies": {
         "chai": "*"
+      , "chai-spies": "*"
       , "component": "*"
       , "mocha": "*"
       , "mocha-phantomjs": "*"

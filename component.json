@@ -10,6 +10,9 @@
   , "scripts": [
         "lib/dag.js"
     ]
-  , "dependencies": {}
+  , "dependencies": {
+        "qualiancy/breeze-queue": "*"
+      , "qualiancy/gaia-tsort": "*"
+    }
   , "development": {}
 }
